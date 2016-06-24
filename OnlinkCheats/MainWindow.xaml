@@ -1,0 +1,41 @@
+﻿<Window x:Name="ThisWindow" x:Class="OnlinkCheats.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OnlinkCheats"
+        mc:Ignorable="d"
+        Title="OnLink: Cheats" Height="361.192" Width="544.331" Background="#FF126FF3" Loaded="Window_Loaded" ResizeMode="CanMinimize">
+    <Grid>
+        <CheckBox x:Name="hackLevel" Content="Rating: " Margin="20,49,0,0" Background="{x:Null}" BorderBrush="White" Foreground="White" Click="hackLevel_Click" HorizontalAlignment="Left" Width="79" Height="22" VerticalAlignment="Top"/>
+        <ComboBox x:Name="uplinkRating" Margin="122,49,0,0" IsEnabled="False" HorizontalAlignment="Left" Width="149" Height="22" VerticalAlignment="Top">
+            <ComboBoxItem Content="16 - Registered" Name="Registered"/>
+            <ComboBoxItem Content="15 - Beginner" Name="Beginner"/>
+            <ComboBoxItem Content="14 - Novice" Name="Novice"/>
+            <ComboBoxItem Content="13 - Confident" Name="Confident"/>
+            <ComboBoxItem Content="12 - Intermediate" Name="Intermediate"/>
+            <ComboBoxItem Content="11 - Skilled" Name="Skilled"/>
+            <ComboBoxItem Content="10 - Experienced" Name="Experienced"/>
+            <ComboBoxItem Content="9 - Knowledgeable" Name="Knowledgeable"/>
+            <ComboBoxItem Content="8 - Uber-Skilled " Name="UberSkilled"/>
+            <ComboBoxItem Content="7 - Professional" Name="Professional"/>
+            <ComboBoxItem Content="6 - Elite" Name="Elite"/>
+            <ComboBoxItem Content="5 - Mage" Name="Mage"/>
+            <ComboBoxItem Content="4 - Expert" Name="Expert"/>
+            <ComboBoxItem Content="3 - Veteran" Name="Veteran"/>
+            <ComboBoxItem Content="2 - Techno-mage" Name="TechnoMage"/>
+            <ComboBoxItem Content="1 - TERMINAL" Name="TERMINAL"/>
+        </ComboBox>
+        <CheckBox x:Name="SetMoney" Content="Set Money: " Margin="20,163,0,0" Background="{x:Null}" BorderBrush="White" Foreground="White" Click="SetMoney_Click" HorizontalAlignment="Left" Width="89" Height="21" VerticalAlignment="Top"/>
+        <TextBox x:Name="money" HorizontalAlignment="Left" Height="23" Margin="122,161,0,0" TextWrapping="Wrap" Text="9999" VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White" BorderBrush="White" PreviewTextInput="textBox_PreviewTextInput" IsEnabled="False"/>
+        <Button x:Name="send" Content="Send" Margin="338,94,0,0" Background="{x:Null}" BorderBrush="White" Foreground="White" Click="send_Click" HorizontalAlignment="Left" Width="94" Height="20" VerticalAlignment="Top"/>
+        <TextBox x:Name="score" TextWrapping="Wrap" Text="2500" Margin="122,86,0,0" IsEnabled="False" Background="{x:Null}" BorderBrush="White" Foreground="White" HorizontalAlignment="Left" Width="149" Height="23" VerticalAlignment="Top"/>
+        <TextBox x:Name="creditRanking" TextWrapping="Wrap" Text="8" Margin="132,118,0,0" IsEnabled="False" Background="{x:Null}" BorderBrush="White" Foreground="White" HorizontalAlignment="Left" Width="139" Height="22" VerticalAlignment="Top"/>
+        <CheckBox x:Name="SetScore" Content="Score:" Margin="20,86,0,0" Foreground="White" Background="{x:Null}" BorderBrush="White" Click="SetScore_Click" HorizontalAlignment="Left" Width="116" Height="23" VerticalAlignment="Top"/>
+        <CheckBox x:Name="SetCredits" Content="Credits Rating:" Margin="20,117,0,0" Foreground="White" Background="{x:Null}" BorderBrush="White" Click="SetCredits_Click" HorizontalAlignment="Left" Width="116" Height="23" VerticalAlignment="Top"/>
+        <Separator Margin="-10,198,10,97"/>
+        <CheckBox x:Name="AllSecSysStatusVal" Content="All Security Systems Status" Margin="17,247,0,0" Background="{x:Null}" BorderBrush="White" Foreground="White" HorizontalAlignment="Left" Width="169" Height="15" VerticalAlignment="Top" IsChecked="True"/>
+        <Button x:Name="setAllSecSysStatus" Content="-&gt; Save" Margin="200,244,0,0" Background="{x:Null}" BorderBrush="White" Foreground="White" Click="setAllSecSysStatus_Click" HorizontalAlignment="Left" Width="75" Height="20" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
