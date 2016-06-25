@@ -3,5 +3,8 @@
 Cheating in Onlink??? Easy.
 * Change Money, Rating, Score,...
 * Disable / Enable All Security Systems
-##Download
-To Download, use the AppVetor Artifacts section.
+## Download
+You can get the binaries from: 
+* [Latest Version](https://github.com/GabrielTK/OnlinkCheats/releases/latest)
+ 
+* [All Downloads (Advanced)](https://github.com/GabrielTK/OnlinkCheats/releases/)
