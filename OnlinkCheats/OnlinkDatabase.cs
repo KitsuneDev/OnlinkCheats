@@ -6,7 +6,10 @@ using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/**
+    NOTICE:
+    The contents below this line were created specifically for this project. If you wanna use them in other projects, please contact GabrielTK Through GitLab issues (https://gitlab.com/GabrielTK/OnlinkCheats/issues)
+*/
 namespace OnlinkCheats
 {
     class OnlinkDatabase
