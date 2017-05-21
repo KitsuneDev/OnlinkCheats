@@ -9,6 +9,6 @@ Cheating in Onlink??? Easy.
 
 ## Download
 You can get the binaries from: 
-* [Latest Version](https://github.com/GabrielTK/OnlinkCheats/releases/latest)
+* [Latest Version](https://gitlab.com/GabrielTK/OnlinkCheats/builds/artifacts/master/download?job=build)
  
-* [All Downloads (Advanced)](https://github.com/GabrielTK/OnlinkCheats/releases/)
+* [All Downloads (Advanced)](https://gitlab.com/GabrielTK/OnlinkCheats/blob/master/README.md)
